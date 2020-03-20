@@ -5,22 +5,9 @@ import java.util.List;
 
 public class RandomProblems {
 
-    public static void main(String args[]) {
-        int[] groupSizes = new int[]{4, 4, 4, 4};
-        //System.out.println(groupThePeople(groupSizes));
-        //System.out.println(isUnique("kaant"));
-        //System.out.println(numOfStepsToZero(14));
-        int[] input = {3, 4, 2, 3};
-        //printArray(smallerNumbersThanCurrent(input));
-        //System.out.println(checkPossibility(input));
-        //System.out.println(isAnagram("Mother In Law", "Hitler Woman"));
-        System.out.println(replaceSpace("Hello World "));
+    public static void main(String args[]) {        
         //System.out.println(replaceSpace("H W K"));
-
-
     }
-
-
 
     /**
      * Given a string this method replaces space in a given string with '%20'
@@ -107,24 +94,6 @@ public class RandomProblems {
 
     }
 
-//    public static List<List<Integer>> groupThePeople(int[] groupSizes) {
-//
-//        List<List<Integer>> solutionList = new ArrayList<>();
-//
-//        int[] peopleId = new int[groupSizes.length];
-//        List<Integer> g1 = new ArrayList<Integer>();
-//
-//        for (int i = 0; i < groupSizes.length; i++) {
-//            if (groupSizes[0] == groupSizes.length) {
-//                g1.add(i);
-//            } else {
-//                // if varying size.
-//            }
-//        }
-//
-//        solutionList.add(g1);
-//        return solutionList;
-//    }
 
     /**
      * This method checks if all the character in a given string are unique;
